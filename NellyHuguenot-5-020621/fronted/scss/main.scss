@@ -1,0 +1,191 @@
+@import "./utils/mixin";
+@import "./utils/variables";
+@import "./utils/base";
+
+
+// NAVBAR ---------------------------------------
+
+.title {
+    font-size: 1.5em;
+}
+
+.navbar-brand img {
+    width: 200px;
+}
+
+// ---LOGO
+.img-sm {
+    width: 250px;
+}
+
+.navbar p {
+    margin: 0;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+// BOUTONS ---------------------------------------
+.bouton {
+    width: 80%;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    background-color: $secondary_color;
+    color: $tertiary_color;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgb(190, 188, 188) 2px 2px;
+    font-weight: bold;
+}
+
+.bouton-sm {
+    width: 200px;
+    margin: auto;
+    padding: 10px 0 10px 0;
+    background-color: whitesmoke;
+    border-color: $tertiary_color;
+    color: $tertiary_color;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgb(190, 188, 188) 2px 2px;
+    font-weight: bold;
+    @include mobile {
+        margin-top: 10px;
+    }
+}
+
+.button-center {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 10px;
+    @include mobile {
+        flex-flow: column;
+        margin-top: 10px;
+    }
+}
+
+
+// MAIN  -------------------------------------
+// INDEX & PRODUCT
+
+.card-deck {
+    display: block;
+}
+
+.card {
+    margin: auto;
+}
+
+.card-header {
+    height: 90px;
+}
+
+.card-img {
+    max-height: 135px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.card-img-lg {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    object-fit: cover;
+}
+
+.product {
+    width: 50%;
+    @include mobile {
+        width: 95%;
+    }
+}
+
+
+// CART
+// ---- TABLE -----
+table {
+    background-color: $secondary_color;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+    color: $tertiary-color;
+}
+
+td img {
+    width: 150px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    @include mobile {
+        display: none;
+    }
+}
+
+.mobile-display-none {
+    @include mobile {
+        display: none;
+    }
+}
+
+.sum {
+    background-color: #ffff;
+    font-weight: bold;
+    font-size: 1.2em;
+    height: 50px;
+}
+
+#text-end {
+    text-align: end;
+}
+
+.mobile-full-td {
+    @include mobile {
+        text-align: center;
+    }
+}
+
+#total {
+    @include mobile {
+        column-span: 5;
+    }
+}
+
+// ---- FORM -----
+form {
+    background-color: $secondary_color;
+    width: 90%;
+    margin: auto;
+}
+
+// ----- CONFIRMATION ----- 
+.alert {
+    width: 50%;
+    margin: auto;
+    background-color: $secondary_color;
+    @include mobile {
+        width: 90%;
+    }
+}
+
+// ---- FOOTER-----
+
+footer.card-header {
+    background-color: $secondary_color;
+}
+
+footer i {
+    height: 100px;
+    padding: 0 10px 10px 10px;
+}
+
+.contact p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: $secondary_color;
+}
+

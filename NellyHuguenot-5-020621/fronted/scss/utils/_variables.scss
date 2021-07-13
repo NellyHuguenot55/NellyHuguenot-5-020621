@@ -1,0 +1,15 @@
+// COLORS
+
+$primary_color: #ffff;
+
+$secondary_color: rgb(243, 233, 241);
+
+$tertiary_color: rgb(209,128,65);
+
+
+// breakpoints
+@mixin phoneandtablet {
+    @media screen and (max-width: 769px) {
+        @content;
+    }
+}

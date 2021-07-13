@@ -1,0 +1,292 @@
+.block-navbar-color {
+  background-color: #f3e9f1;
+}
+
+.bg-title {
+  background-color: #f3e9f1;
+}
+
+.bg-light_pink {
+  background-color: #f3e9f1;
+}
+
+.bg-grey {
+  background-color: #d3b6aa;
+}
+
+.title {
+  font-size: 1.5em;
+}
+
+h1 {
+  color: #343A40;
+  line-height: 2px;
+}
+
+h2 {
+  color: #343A40;
+  text-align: center;
+}
+
+h3 {
+  color: #343A40;
+  text-align: center;
+}
+
+h4 {
+  color: #d18041;
+}
+
+h5 {
+  color: #f3e9f1;
+}
+
+.catchphrase {
+  color: #d18041;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.fa-camera-retro {
+  color: #d18041;
+  font-size: 3em;
+}
+
+.navbar i {
+  color: #d18041;
+  font-size: 1.4em;
+}
+
+.intro-text {
+  color: #f3e9f1;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 15px 0 15px 0;
+}
+
+.form-text {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+label {
+  font-weight: bold;
+}
+
+.navbar a {
+  font-size: 1.2em;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer i {
+  color: #f3e9f1;
+}
+
+footer a {
+  text-decoration: none;
+  color: #343A40;
+}
+
+.title {
+  font-size: 1.5em;
+}
+
+.navbar-brand img {
+  width: 200px;
+}
+
+.img-sm {
+  width: 250px;
+}
+
+.navbar p {
+  margin: 0;
+}
+
+.navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.bouton {
+  width: 80%;
+  margin: auto;
+  padding: 10px 0 10px 0;
+  background-color: #f3e9f1;
+  color: #343A40;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: #bebcbc 2px 2px;
+          box-shadow: #bebcbc 2px 2px;
+  font-weight: bold;
+}
+
+.bouton-sm {
+  width: 200px;
+  margin: auto;
+  padding: 10px 0 10px 0;
+  background-color: whitesmoke;
+  border-color: #d18041;
+  color: #d18041;
+  border: none;
+  border-radius: 5px;
+  -webkit-box-shadow: #bebcbc 2px 2px;
+          box-shadow: #bebcbc 2px 2px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .bouton-sm {
+    margin-top: 10px;
+  }
+}
+
+.button-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .button-center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    margin-top: 10px;
+  }
+}
+
+.card-deck {
+  display: block;
+}
+
+.card {
+  margin: auto;
+}
+
+.card-header {
+  height: 90px;
+}
+
+.card-img {
+  max-height: 135px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-img-lg {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.product {
+  width: 50%;
+}
+
+@media (max-width: 600px) {
+  .product {
+    width: 95%;
+  }
+}
+
+table {
+  background-color: #f3e9f1;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  text-align: center;
+  color: #d18041;
+}
+
+td img {
+  width: 150px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  td img {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .mobile-display-none {
+    display: none;
+  }
+}
+
+.sum {
+  background-color: #ffff;
+  font-weight: bold;
+  font-size: 1.2em;
+  height: 50px;
+}
+
+#text-end {
+  text-align: end;
+}
+
+@media (max-width: 600px) {
+  .mobile-full-td {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  #total {
+    -webkit-column-span: 5;
+            column-span: 5;
+  }
+}
+
+form {
+  width: 90%;
+  margin: auto;
+}
+
+.alert {
+  width: 50%;
+  margin: auto;
+  }
+
+@media (max-width: 600px) {
+  .alert {
+    width: 90%;
+  }
+}
+
+footer.card-header {
+  background-color: #f3e9f1;
+}
+
+footer i {
+  height: 100px;
+  padding: 0 10px 10px 10px;
+}
+
+.contact p {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #f3e9f1;
+}
+/*# sourceMappingURL=main.css.map */

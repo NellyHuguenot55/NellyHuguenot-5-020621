@@ -1,0 +1,106 @@
+// BACKGROUND --------------------------
+.block-navbar-color {
+    background-color: $secondary_color;
+}
+
+.bg-title {
+    background-color: $secondary_color;
+}
+
+.bg-light_pink {
+    background-color: $secondary_color;
+}
+
+.bg-grey {
+    background-color: $primary_color;
+}
+
+
+// FONTS & i -----------------------------
+// TITLE  
+.title {
+    font-size: 1.5em;
+}
+
+h1 {
+    color: $primary_color;
+    line-height: 2px;
+}
+
+h2 {
+    color: $primary_color;
+    text-align: center;
+}
+
+h3 {
+    color: $primary_color;
+    text-align: center;
+}
+
+h4 {
+    color: $tertiary_color;
+    font-size: 1em;
+}
+
+h5 {
+    color: $secondary_color;
+}
+
+.catchphrase {
+    color: $tertiary_color;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.fa-camera-retro {
+    color: $tertiary_color;
+    font-size: 3em
+}
+
+// NAVBAR
+.navbar i {
+    color: $tertiary_color;
+    font-size: 1.4em;
+}
+
+.navbar a {
+    color: $tertiary-color;
+}
+
+//CONTAINER FLUID
+.intro-text {
+    color: $secondary_color;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 15px 0 15px 0;
+}
+
+// FORM
+.form-text {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+// LIEN 
+.navbar a {
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+// FOOTER
+footer i {
+    color: $secondary_color;
+}
+
+footer a {
+    text-decoration: none;
+    color: $primary_color;
+}
+
+
+
